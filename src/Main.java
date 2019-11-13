@@ -78,14 +78,10 @@ public class Main {
         collectiona1.add_song(song10);
         catalog1.add_collection(collectiona1);
 
-        System.out.println("all rap songs:" + catalog1.findSongsByGenre("Рэп"));
-        System.out.println(catalog1.find_artists_genre("Поп"));
-        System.out.println(catalog1.find_albums_more_years(2012));
-
-        System.out.println(collectiona1.get_collection());
-
-
-
+        System.out.println("All rap songs:" + catalog1.findSongsByGenre("Рэп"));
+        System.out.println("All pop singers: " + catalog1.find_artists_genre("Поп"));
+        System.out.println("All albums after 2012: " + catalog1.find_albums_more_years(2012));
+        
     }
 
 
