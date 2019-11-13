@@ -77,32 +77,15 @@ public class Main {
         collectiona1.add_song(song2);
         collectiona1.add_song(song10);
         catalog1.add_collection(collectiona1);
-        //System.out.print(collectiona1.get_collection());
 
-        // print query
-        // e.g., All rap songs: [..., ..., ...]
         System.out.println("all rap songs:" + catalog1.findSongsByGenre("Рэп"));
-        //System.out.println(catalog1.find_artists_genre("Поп"));
+        System.out.println(catalog1.find_artists_genre("Поп"));
         System.out.println(catalog1.find_albums_more_years(2012));
 
         System.out.println(collectiona1.get_collection());
 
 
-        /*for(int i = 0; i < 3; i++){
-            Artist art = new Artist(Integer.toString(i), "Поп");
-            for(int j = 0; j < 3; j++) {
-                Album alb = new Album(Integer.toString(i % 2 + j), i + 1990);
-                for(int k = 0; k < 3; k++){
-                     Song song = new Song(Integer.toString(j % 2 + k));
-                     alb.add_song(song);
-                }
-                art.add_album(alb);
-            }
-            catalog1.add_artists(art);
-        }*/
 
-
-        //catalog1.print_catalog();
     }
 
 
