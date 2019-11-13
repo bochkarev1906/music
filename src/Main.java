@@ -82,7 +82,7 @@ public class Main {
         // print query
         // e.g., All rap songs: [..., ..., ...]
         System.out.println("all rap songs:" + catalog1.findSongsByGenre("Рэп"));
-        System.out.println(catalog1.find_artists_genre("Поп"));
+        //System.out.println(catalog1.find_artists_genre("Поп"));
         System.out.println(catalog1.find_albums_more_years(2012));
 
         System.out.println(collectiona1.get_collection());
