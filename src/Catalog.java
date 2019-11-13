@@ -31,7 +31,7 @@ public class Catalog {
       return s;
     }
 
-    String find_artists_genre(String genre) {
+    /*String find_artists_genre(String genre) {
         String s = "";
         for (int i = 0; i < this.list_artist.size(); i++) {
             if (genre.equals(this.list_artist.get(i).getGenre())) {
@@ -39,7 +39,7 @@ public class Catalog {
             }
         }
         return s;
-    }
+    }*/
 
 
     String find_albums_more_years(int year) {
