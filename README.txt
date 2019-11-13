@@ -1,4 +1,3 @@
-Lab_2
 Music System
 ===========
 This system helps to listener to manage songs and catalogs of songs.
@@ -7,7 +6,7 @@ There are 6 classes:
 
 -----------
 Main.java - this class helps to create songs and catalogs:
-For example, main()
+	public static void main()
 
 -----------
 Album.java - this class helps to manage Albums.
@@ -32,3 +31,7 @@ For example, getNameByCode().
 Song.java - this class helps to manage songs
 For example, getName().
 This class has genre.
+
+
+
+
