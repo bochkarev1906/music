@@ -6,7 +6,7 @@ There are 6 classes:
 
 -----------
 Main.java - this class helps to create songs and catalogs:
-	public static void main()
+	
 
 -----------
 Album.java - this class helps to manage Albums.
