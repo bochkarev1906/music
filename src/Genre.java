@@ -23,5 +23,5 @@ public class Genre {
         return null;
     }
 
-
+    //add exceptions and other useful functions for your best workflow
 }
